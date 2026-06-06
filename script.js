@@ -6,6 +6,9 @@ const resetBtn = document.getElementById("resetBtn");
 const addPlayerBtn = document.getElementById("addPlayerBtn");
 const playersConfig = document.getElementById("playersConfig");
 
+const globalHpInput = document.getElementById("globalHp");
+const globalMaxHpInput = document.getElementById("globalMaxHp");
+
 let players = [];
 let playerId = 0;
 
